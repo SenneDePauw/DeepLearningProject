@@ -1,0 +1,32 @@
+{
+  "args": {
+    "demo": false,
+    "data": "C:\\kws_data\\extracted",
+    "inspect": false,
+    "classes": [
+      "volume_up",
+      "volume_down"
+    ],
+    "label_from": "parent",
+    "own": null,
+    "epochs": 20,
+    "max_per_class": 1000,
+    "bs": 32,
+    "seed": 42,
+    "n_aug": 3
+  },
+  "results": {
+    "LSTM": {
+      "acc": 0.9941520467836257,
+      "macro_f1": 0.9941512467079385,
+      "params": 60546,
+      "ms_per_pred": 1.1348539998289198
+    },
+    "KWT": {
+      "acc": 0.9941520467836257,
+      "macro_f1": 0.9941520467836257,
+      "params": 109890,
+      "ms_per_pred": 1.21575600001961
+    }
+  }
+}
